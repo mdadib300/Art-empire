@@ -17,13 +17,14 @@ code {
 }
 
 .empireBtn{
-  background-color: #017737;
-  border-radius: 10px;
+  background-color: #013237;
+  border-radius: 7px;
   padding: 10px 30px;
   color: white;
+  border: 1px solid #013237;
 }
 
 .empireBtn:hover{
   background-color: #D7F9D3;
-  color: #017737;
+  color: #013237;
 }
