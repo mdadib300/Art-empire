@@ -9,6 +9,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: 'Sofia Sans', sans-serif;
 }
 
 code {
@@ -17,14 +18,14 @@ code {
 }
 
 .empireBtn{
-  background-color: #013237;
-  border-radius: 7px;
+  background-color: #3D65FF;
+  border-radius: 100px;
   padding: 10px 30px;
   color: white;
-  border: 1px solid #013237;
+  font-weight: 500;
 }
 
 .empireBtn:hover{
-  background-color: #D7F9D3;
-  color: #013237;
+  background-color: white;
+  color: #3D65FF;
 }

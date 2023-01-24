@@ -1,13 +1,14 @@
 import React from 'react';
+import './Banner.css';
 
 const Banner = () => {
     return (
-        <div className="hero bg-primary py-24 md:py-52">
-            <div className="hero-content text-center">
+        <div id='banner' className="hero py-24 md:py-52 text-white">
+            <div className="hero-content text-center wave">
                 <div className="max-w-md">
-                    <h1 className="text-5xl font-bold">lorem ipsum</h1>
-                    <p className="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-                    <button className="empireBtn">Get Started</button>
+                    <h1 className="text-4xl md:text-5xl font-bold">Creating Beauty In Every Brush Stroke, Every Pixel</h1>
+                    <p className="py-6">I am here to give you the most creative and colorful service. You can find meaningful logo design and AI art. And if any of you want some fictional characters, you can tell me. At the same time, I can enchant you with traditional and digital art.</p>
+                    <button className="empireBtn">Let's Explore 😀</button>
                 </div>
             </div>
         </div>
