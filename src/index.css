@@ -29,3 +29,17 @@ code {
   background-color: white;
   color: #3D65FF;
 }
+
+.empireBtn2{
+  background-color: #3D65FF;
+  border: 1px solid #3D65FF;
+  border-radius: 100px;
+  padding: 8px 28px;
+  color: white;
+  font-weight: 500;
+}
+
+.empireBtn2:hover{
+  background-color: white;
+  color: #3D65FF;
+}
