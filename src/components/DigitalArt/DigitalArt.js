@@ -1,10 +1,6 @@
 import React from 'react';
-import cd1 from '../../assets/CharacterDesign/1.jpg';
-import cd2 from '../../assets/CharacterDesign/2.jpg';
-import cd3 from '../../assets/CharacterDesign/3.jpg';
-import cd4 from '../../assets/CharacterDesign/4.jpg';
 
-const CharacterDesign = () => {
+const DigitalArt = () => {
     return (
         <div id='characterDesign' className='pb-20 md:pb-32 px-5 md:px-10 bg-primary text-white text-center'>
             <h1 className='text-4xl font-semibold mb-5'>Character Design</h1>
@@ -12,7 +8,7 @@ const CharacterDesign = () => {
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 mt-10'>
                 <div className="card bg-white text-primary">
                     <figure>
-                        <img src={cd1} alt="Character Design - Rafi's Art Empire" className='w-full' />
+                        <img src='*' alt="Character Design - Rafi's Art Empire" className='w-full' />
                     </figure>
                     <div className="card-body">
                         <h2 className="card-title">Pori Mori Tori</h2>
@@ -20,7 +16,7 @@ const CharacterDesign = () => {
                 </div>
                 <div className="card bg-white text-primary">
                     <figure>
-                        <img src={cd2} alt="Character Design - Rafi's Art Empire" className='w-full' />
+                        <img src='*' alt="Character Design - Rafi's Art Empire" className='w-full' />
                     </figure>
                     <div className="card-body">
                         <h2 className="card-title">Lalshalu</h2>
@@ -28,7 +24,7 @@ const CharacterDesign = () => {
                 </div>
                 <div className="card bg-white text-primary">
                     <figure>
-                        <img src={cd3} alt="Character Design - Rafi's Art Empire" className='w-full' />
+                        <img src='*' alt="Character Design - Rafi's Art Empire" className='w-full' />
                     </figure>
                     <div className="card-body">
                         <h2 className="card-title">GhurMuri</h2>
@@ -36,7 +32,7 @@ const CharacterDesign = () => {
                 </div>
                 <div className="card bg-white text-primary">
                     <figure>
-                        <img src={cd4} alt="Character Design - Rafi's Art Empire" className='w-full' />
+                        <img src='*' alt="Character Design - Rafi's Art Empire" className='w-full' />
                     </figure>
                     <div className="card-body">
                         <h2 className="card-title">ShurShuri</h2>
@@ -47,4 +43,4 @@ const CharacterDesign = () => {
     );
 };
 
-export default CharacterDesign;
+export default DigitalArt;
