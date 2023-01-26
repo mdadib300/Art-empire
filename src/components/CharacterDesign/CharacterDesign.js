@@ -9,10 +9,34 @@ const CharacterDesign = () => {
         <div id='characterDesign' className='pb-20 md:pb-32 px-5 md:px-10 bg-primary text-white text-center'>
             <h1 className='text-4xl font-semibold mb-5'>Character Design</h1>
             <p>Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem</p>
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-10'>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 mt-10'>
                 <div className="card bg-white text-primary">
                     <figure>
-                        <img src="https://placeimg.com/400/225/arch" alt="Character Design - Rafi's Art Empire" className='w-full' />
+                        <img src={cd1} alt="Character Design - Rafi's Art Empire" className='w-full' />
+                    </figure>
+                    <div className="card-body">
+                        <h2 className="card-title">Character Design 1</h2>
+                    </div>
+                </div>
+                <div className="card bg-white text-primary">
+                    <figure>
+                        <img src={cd2} alt="Character Design - Rafi's Art Empire" className='w-full' />
+                    </figure>
+                    <div className="card-body">
+                        <h2 className="card-title">Character Design 1</h2>
+                    </div>
+                </div>
+                <div className="card bg-white text-primary">
+                    <figure>
+                        <img src={cd3} alt="Character Design - Rafi's Art Empire" className='w-full' />
+                    </figure>
+                    <div className="card-body">
+                        <h2 className="card-title">Character Design 1</h2>
+                    </div>
+                </div>
+                <div className="card bg-white text-primary">
+                    <figure>
+                        <img src={cd4} alt="Character Design - Rafi's Art Empire" className='w-full' />
                     </figure>
                     <div className="card-body">
                         <h2 className="card-title">Character Design 1</h2>
