@@ -1,4 +1,8 @@
 import React from 'react';
+import cd1 from '../../assets/CharacterDesign/1.jpg';
+import cd2 from '../../assets/CharacterDesign/2.jpg';
+import cd3 from '../../assets/CharacterDesign/3.jpg';
+import cd4 from '../../assets/CharacterDesign/4.jpg';
 
 const CharacterDesign = () => {
     return (
