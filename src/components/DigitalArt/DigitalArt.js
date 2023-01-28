@@ -7,7 +7,7 @@ import da5 from '../../assets/digitalArt/9.jpg';
 
 const DigitalArt = () => {
     return (
-        <div id='characterDesign' className='pb-20 md:pb-32 px-5 md:px-10 bg-primary text-white text-center'>
+        <div id='digital-art' className='pb-20 md:pb-32 px-5 md:px-10 text-white text-center'>
             <h1 className='text-4xl font-semibold mb-5'>Digital Art</h1>
             <p>Digital art is created with different types of software. Here we use "Ibispaint X". In addition to various art, logos/watermarks can also be provided as per your requirements.</p>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 mt-10'>
