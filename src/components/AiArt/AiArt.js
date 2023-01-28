@@ -16,7 +16,7 @@ const AiArt = () => {
     return (
         <div id='characterDesign' className='pb-20 md:pb-32 px-5 md:px-10 bg-primary text-white text-center'>
             <h1 className='text-4xl font-semibold mb-5'>AI Art</h1>
-            <p>AI art is created with different drawing and painting styles. AI art includes sketches, portraits, etc. Different types of colors like poster colors, acrylic colors, pastels etc. are used in AI paintings.</p>
+            <p>Basically we use midjourneyAI to make AI arts. Character designs, photo transformations, logos/watermarks, and more can be created.</p>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 mt-10'>
                 <div className="card bg-white text-primary">
                     <figure>
