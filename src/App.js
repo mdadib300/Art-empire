@@ -1,4 +1,5 @@
 import React from 'react';
+import About from './components/About/About';
 import AiArt from './components/AiArt/AiArt';
 import Banner from './components/Banner/Banner';
 import CharacterDesign from './components/CharacterDesign/CharacterDesign';
@@ -18,6 +19,7 @@ function App() {
       <DigitalArt />
       <TraditionalArt />
       <AiArt />
+      <About />
       <Footer />
     </div>
   );

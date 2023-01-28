@@ -7,7 +7,7 @@ import aiArt from '../../assets/aiArt/20.jpg';
 
 const Services = () => {
     return (
-        <div className='pb-20 md:pb-32 px-5 flex flex-col-reverse md:flex-row items-center justify-around text-white'>
+        <div id='services' className='pb-20 md:pb-32 px-5 flex flex-col-reverse md:flex-row items-center justify-around text-white'>
             <div className='w-full md:w-1/2'>
                 <div className="carousel w-full mb-5">
                     <div id="item1" className="carousel-item w-full">

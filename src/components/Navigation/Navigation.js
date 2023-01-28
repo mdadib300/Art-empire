@@ -1,4 +1,5 @@
 import React from 'react';
+import Typewriter from 'typewriter-effect';
 
 const Navigation = () => {
     return (
@@ -15,7 +16,15 @@ const Navigation = () => {
                         <li><a href='/#ai-art'>AI Art</a></li>
                     </ul>
                 </div>
-                <a href='/' className="normal-case text-2xl">Art Empire</a>
+                <a href='/' className="normal-case text-2xl">
+                    <Typewriter
+                        options={{
+                            strings: ["Art Empire"],
+                        autoStart: true,
+                    loop: true,
+                    }}
+                />
+                </a>
             </div>
             <div className="navbar-end hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
