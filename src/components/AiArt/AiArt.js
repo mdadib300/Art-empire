@@ -14,7 +14,7 @@ import aa12 from '../../assets/aiArt/24.jpg';
 
 const AiArt = () => {
     return (
-        <div id='characterDesign' className='pb-20 md:pb-32 px-5 md:px-10 bg-primary text-white text-center'>
+        <div id='ai-art' className='pb-20 md:pb-32 px-5 md:px-10 text-white text-center'>
             <h1 className='text-4xl font-semibold mb-5'>AI Art</h1>
             <p>Basically we use midjourneyAI to make AI arts. Character designs, photo transformations, logos/watermarks, and more can be created.</p>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 mt-10'>
@@ -23,7 +23,7 @@ const AiArt = () => {
                         <img src={aa1} alt="AI Art - Rafi's Art Empire" className='w-full' />
                     </figure>
                     <div className="card-body">
-                        <h2 className="card-title">Pori Mori Tori</h2>
+                        <h2 className="card-title">AI Art Sample - 1</h2>
                     </div>
                 </div>
                 <div className="card bg-white text-primary">
@@ -31,7 +31,7 @@ const AiArt = () => {
                         <img src={aa2} alt="AI Art - Rafi's Art Empire" className='w-full' />
                     </figure>
                     <div className="card-body">
-                        <h2 className="card-title">Lalshalu</h2>
+                        <h2 className="card-title">AI Art Sample - 2</h2>
                     </div>
                 </div>
                 <div className="card bg-white text-primary">
@@ -39,7 +39,7 @@ const AiArt = () => {
                         <img src={aa3} alt="AI Art - Rafi's Art Empire" className='w-full' />
                     </figure>
                     <div className="card-body">
-                        <h2 className="card-title">GhurMuri</h2>
+                        <h2 className="card-title">AI Art Sample - 3</h2>
                     </div>
                 </div>
                 <div className="card bg-white text-primary">
@@ -47,7 +47,7 @@ const AiArt = () => {
                         <img src={aa4} alt="AI Art - Rafi's Art Empire" className='w-full' />
                     </figure>
                     <div className="card-body">
-                        <h2 className="card-title">ShurShuri</h2>
+                        <h2 className="card-title">AI Art Sample - 4</h2>
                     </div>
                 </div>
                 <div className="card bg-white text-primary">
@@ -55,7 +55,7 @@ const AiArt = () => {
                         <img src={aa5} alt="AI Art - Rafi's Art Empire" className='w-full' />
                     </figure>
                     <div className="card-body">
-                        <h2 className="card-title">Pori Mori Tori</h2>
+                        <h2 className="card-title">AI Art Sample - 5</h2>
                     </div>
                 </div>
                 <div className="card bg-white text-primary">
@@ -63,7 +63,7 @@ const AiArt = () => {
                         <img src={aa6} alt="AI Art - Rafi's Art Empire" className='w-full' />
                     </figure>
                     <div className="card-body">
-                        <h2 className="card-title">Lalshalu</h2>
+                        <h2 className="card-title">AI Art Sample - 6</h2>
                     </div>
                 </div>
                 <div className="card bg-white text-primary">
@@ -71,7 +71,7 @@ const AiArt = () => {
                         <img src={aa7} alt="AI Art - Rafi's Art Empire" className='w-full' />
                     </figure>
                     <div className="card-body">
-                        <h2 className="card-title">GhurMuri</h2>
+                        <h2 className="card-title">AI Art Sample - 7</h2>
                     </div>
                 </div>
                 <div className="card bg-white text-primary">
@@ -79,7 +79,7 @@ const AiArt = () => {
                         <img src={aa8} alt="AI Art - Rafi's Art Empire" className='w-full' />
                     </figure>
                     <div className="card-body">
-                        <h2 className="card-title">ShurShuri</h2>
+                        <h2 className="card-title">AI Art Sample - 8</h2>
                     </div>
                 </div>
                 <div className="card bg-white text-primary">
@@ -87,7 +87,7 @@ const AiArt = () => {
                         <img src={aa9} alt="AI Art - Rafi's Art Empire" className='w-full' />
                     </figure>
                     <div className="card-body">
-                        <h2 className="card-title">Pori Mori Tori</h2>
+                        <h2 className="card-title">AI Art Sample - 9</h2>
                     </div>
                 </div>
                 <div className="card bg-white text-primary">
@@ -95,7 +95,7 @@ const AiArt = () => {
                         <img src={aa10} alt="AI Art - Rafi's Art Empire" className='w-full' />
                     </figure>
                     <div className="card-body">
-                        <h2 className="card-title">Lalshalu</h2>
+                        <h2 className="card-title">AI Art Sample - 10</h2>
                     </div>
                 </div>
                 <div className="card bg-white text-primary">
@@ -103,7 +103,7 @@ const AiArt = () => {
                         <img src={aa11} alt="AI Art - Rafi's Art Empire" className='w-full' />
                     </figure>
                     <div className="card-body">
-                        <h2 className="card-title">GhurMuri</h2>
+                        <h2 className="card-title">AI Art Sample - 11</h2>
                     </div>
                 </div>
                 <div className="card bg-white text-primary">
@@ -111,7 +111,7 @@ const AiArt = () => {
                         <img src={aa12} alt="AI Art - Rafi's Art Empire" className='w-full' />
                     </figure>
                     <div className="card-body">
-                        <h2 className="card-title">ShurShuri</h2>
+                        <h2 className="card-title">AI Art Sample - 12</h2>
                     </div>
                 </div>
             </div>

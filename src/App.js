@@ -10,7 +10,7 @@ import TraditionalArt from './components/TraditionalArt/TraditionalArt';
 
 function App() {
   return (
-    <div className='max-w-[1440px] mx-auto'>
+    <div className='max-w-[1440px] mx-auto bg-primary'>
       <Navigation />
       <Banner />
       <Services />
