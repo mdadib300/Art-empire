@@ -6,7 +6,7 @@ import cd4 from '../../assets/CharacterDesign/4.jpg';
 
 const CharacterDesign = () => {
     return (
-        <div id='characterDesign' className='pb-20 md:pb-32 px-5 md:px-10 text-white text-center'>
+        <div id='character-design' className='pb-20 md:pb-32 px-5 md:px-10 text-white text-center'>
             <h1 className='text-4xl font-semibold mb-5'>Character Design</h1>
             <p>Sample text</p>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 mt-10'>
