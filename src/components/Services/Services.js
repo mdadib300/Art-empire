@@ -2,7 +2,7 @@ import React from 'react';
 import image from '../../assets/pana.png';
 import characterDesign from '../../assets/CharacterDesign/2.jpg';
 import digitalArt from '../../assets/digitalArt/7.jpg';
-import paintings from '../../assets/paintings/10.jpg';
+import traditionalArt from '../../assets/paintings/10.jpg';
 import aiArt from '../../assets/aiArt/20.jpg';
 
 const Services = () => {
@@ -12,48 +12,48 @@ const Services = () => {
                 <div className="carousel w-full mb-5">
                     <div id="item1" className="carousel-item w-full">
                         <div className="mx-auto card lg:card-side border bg-white text-primary">
-                            <figure><img className='w-full h-80' src={characterDesign} alt="Album" /></figure>
+                            <figure><img className='w-full lg:w-80 h-80' src={characterDesign} alt="Album" /></figure>
                             <div className="card-body">
                                 <h2 className="text-2xl font-medium">Character Design</h2>
-                                <p>Click the button to listen on Spotiwhy app.</p>
+                                <p>Click the button to view details and samples.</p>
                                 <div className="card-actions justify-end">
-                                    <button className="empireBtn2">Jump in :D</button>
+                                    <button className="empireBtn2">Jump in 😃</button>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div id="item2" className="carousel-item w-full">
                         <div className="mx-auto card lg:card-side border bg-white text-primary">
-                            <figure><img className='w-full h-80' src={digitalArt} alt="Album" /></figure>
+                            <figure><img className='w-full lg:w-80 h-80' src={digitalArt} alt="Album" /></figure>
                             <div className="card-body">
                                 <h2 className="text-2xl font-medium text-primary">Digital Art</h2>
-                                <p>Click the button to listen on Spotiwhy app.</p>
+                                <p>Click the button to view details and samples.</p>
                                 <div className="card-actions justify-end">
-                                    <button className="empireBtn2">Jump in :D</button>
+                                    <button className="empireBtn2">Jump in 😃</button>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div id="item3" className="carousel-item w-full">
                         <div className="mx-auto card lg:card-side border bg-white text-primary">
-                            <figure><img className='w-full h-80' src={paintings} alt="Album" /></figure>
+                            <figure><img className='w-full lg:w-80 h-80' src={traditionalArt} alt="Album" /></figure>
                             <div className="card-body">
-                                <h2 className="text-2xl font-medium text-primary">Paintings</h2>
-                                <p>Click the button to listen on Spotiwhy app.</p>
+                                <h2 className="text-2xl font-medium text-primary">Traditional Art</h2>
+                                <p>Click the button to view details and samples.</p>
                                 <div className="card-actions justify-end">
-                                    <button className="empireBtn2">Jump in :D</button>
+                                    <button className="empireBtn2">Jump in 😃</button>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div id="item4" className="carousel-item w-full">
                         <div className="mx-auto card lg:card-side border bg-white text-primary">
-                            <figure><img className='w-full h-80' src={aiArt} alt="Album" /></figure>
+                            <figure><img className='w-full lg:w-80 h-80' src={aiArt} alt="Album" /></figure>
                             <div className="card-body">
                                 <h2 className="text-2xl font-medium text-primary">AI Art</h2>
-                                <p>Click the button to listen on Spotiwhy app.</p>
+                                <p>Click the button to view details and samples.</p>
                                 <div className="card-actions justify-end">
-                                    <button className="empireBtn2">Jump in :D</button>
+                                    <button className="empireBtn2">Jump in 😃</button>
                                 </div>
                             </div>
                         </div>

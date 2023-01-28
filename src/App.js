@@ -4,6 +4,7 @@ import CharacterDesign from './components/CharacterDesign/CharacterDesign';
 import DigitalArt from './components/DigitalArt/DigitalArt';
 import Navigation from "./components/Navigation/Navigation";
 import Services from './components/Services/Services';
+import TraditionalArt from './components/TraditionalArt/TraditionalArt';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Services />
       <CharacterDesign />
       <DigitalArt />
+      <TraditionalArt />
     </div>
   );
 }
