@@ -7,53 +7,53 @@ import aiArt from '../../assets/aiArt/20.jpg';
 
 const Services = () => {
     return (
-        <div className='pb-20 md:pb-32 px-5 flex flex-col-reverse md:flex-row items-center justify-around bg-primary text-white'>
+        <div className='pb-20 md:pb-32 px-5 flex flex-col-reverse md:flex-row items-center justify-around text-white'>
             <div className='w-full md:w-1/2'>
                 <div className="carousel w-full mb-5">
                     <div id="item1" className="carousel-item w-full">
                         <div className="mx-auto card lg:card-side border bg-white text-primary">
-                            <figure><img className='w-full lg:w-80 h-80' src={characterDesign} alt="Album" /></figure>
+                            <figure><img className='w-full lg:w-80 h-80' src={characterDesign} alt="Character Design" /></figure>
                             <div className="card-body">
                                 <h2 className="text-2xl font-medium">Character Design</h2>
                                 <p>Click the button to view details and samples.</p>
                                 <div className="card-actions justify-end">
-                                    <button className="empireBtn2">Jump in 😃</button>
+                                    <a href='/#character-design' className="empireBtn2">Jump in 😃</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div id="item2" className="carousel-item w-full">
                         <div className="mx-auto card lg:card-side border bg-white text-primary">
-                            <figure><img className='w-full lg:w-80 h-80' src={digitalArt} alt="Album" /></figure>
+                            <figure><img className='w-full lg:w-80 h-80' src={digitalArt} alt="Digital Art" /></figure>
                             <div className="card-body">
                                 <h2 className="text-2xl font-medium text-primary">Digital Art</h2>
                                 <p>Click the button to view details and samples.</p>
                                 <div className="card-actions justify-end">
-                                    <button className="empireBtn2">Jump in 😃</button>
+                                    <a href='/#digital-art' className="empireBtn2">Jump in 😃</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div id="item3" className="carousel-item w-full">
                         <div className="mx-auto card lg:card-side border bg-white text-primary">
-                            <figure><img className='w-full lg:w-80 h-80' src={traditionalArt} alt="Album" /></figure>
+                            <figure><img className='w-full lg:w-80 h-80' src={traditionalArt} alt="Traditional Art" /></figure>
                             <div className="card-body">
                                 <h2 className="text-2xl font-medium text-primary">Traditional Art</h2>
                                 <p>Click the button to view details and samples.</p>
                                 <div className="card-actions justify-end">
-                                    <button className="empireBtn2">Jump in 😃</button>
+                                    <a href='/#traditional-art' className="empireBtn2">Jump in 😃</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div id="item4" className="carousel-item w-full">
                         <div className="mx-auto card lg:card-side border bg-white text-primary">
-                            <figure><img className='w-full lg:w-80 h-80' src={aiArt} alt="Album" /></figure>
+                            <figure><img className='w-full lg:w-80 h-80' src={aiArt} alt="AI Art" /></figure>
                             <div className="card-body">
                                 <h2 className="text-2xl font-medium text-primary">AI Art</h2>
                                 <p>Click the button to view details and samples.</p>
                                 <div className="card-actions justify-end">
-                                    <button className="empireBtn2">Jump in 😃</button>
+                                    <a href='/#ai-art' className="empireBtn2">Jump in 😃</a>
                                 </div>
                             </div>
                         </div>
@@ -68,7 +68,7 @@ const Services = () => {
             </div>
             <div>
                 <h2 className='text-4xl font-bold text-center mb-10'>Our Creation</h2>
-                <img src={image} alt='What we do?' className='mb-10 md:mb-0'></img>
+                <img src={image} alt='Our Creation' className='mb-10 md:mb-0'></img>
             </div>
         </div>
     );
